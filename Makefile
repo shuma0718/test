@@ -1,7 +1,6 @@
-#Makefile for main.c
-ma: main.c
+main: main.c
   gcc -Wall -O -o main main.c -lm
   
-  make clean: main.c
+  clean: main.c
     rm main *~
 
